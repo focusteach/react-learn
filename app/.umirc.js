@@ -19,7 +19,10 @@ export default {
       dynamicImport: { webpackChunkName: true },
       title: 'app',
       dll: true,
-      
+      locale: {
+        enable: true,
+        default: 'en-US',
+      },
       routes: {
         exclude: [
           /models\//,
